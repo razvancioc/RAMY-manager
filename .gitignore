@@ -1,0 +1,35 @@
+# Mediul virtual Python
+venv/
+env/
+ENV/
+.venv/
+
+# Cache Python & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Baza de date SQLite locala (contine comenzi reale si date clienti)
+*.db
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Snapshot-uri temporare de la camera
+static/camera_snapshot.jpg
+
+# Fisiere de sistem OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fisiere de configurare cu secrete locale
+.env
+*.local
